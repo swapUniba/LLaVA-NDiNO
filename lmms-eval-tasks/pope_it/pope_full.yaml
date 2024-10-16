@@ -1,0 +1,5 @@
+group : pope_full-it
+task:
+  - pope_adv-it
+  - pope_pop-it
+  - pope_random-it

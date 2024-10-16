@@ -1,0 +1,23 @@
+dataset_path: m-elio/SEED-Bench_IT
+dataset_kwargs:
+  token: True
+task: "seedbench-it"
+test_split: test
+output_type: generate_until
+doc_to_visual: !function utils.seed_doc_to_visual
+doc_to_text: !function utils.seed_doc_to_text
+doc_to_target: "answer"
+generation_kwargs:
+  max_new_tokens: 128
+  temperature: 0
+  top_p: 1.0
+  num_beams: 1
+  do_sample: false
+  image_aspect_ratio: original
+process_results: !function utils.seed_process_result
+metric_list:
+  - metric: seed_image
+    aggregation: !function utils.seed_aggregation_result
+    higher_is_better: true
+metadata:
+  - version: 0.0
