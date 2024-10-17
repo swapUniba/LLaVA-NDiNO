@@ -1,4 +1,4 @@
-dataset_path: m-elio/POPE_IT
+dataset_path: swap-uniba/POPE_IT
 dataset_kwargs:
   token: True
 task: "pope_pop-it"
