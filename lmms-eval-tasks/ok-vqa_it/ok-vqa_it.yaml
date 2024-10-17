@@ -1,4 +1,4 @@
-dataset_path: m-elio/OK-VQA_IT
+dataset_path: swap-uniba/OK-VQA_IT
 output_type: generate_until
 doc_to_visual: !function utils.ok_vqa_doc_to_visual
 doc_to_text: !function utils.ok_vqa_doc_to_text
