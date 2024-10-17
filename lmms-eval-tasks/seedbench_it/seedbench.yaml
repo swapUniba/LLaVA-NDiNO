@@ -1,4 +1,4 @@
-dataset_path: m-elio/SEED-Bench_IT
+dataset_path: swap-uniba/SEED-Bench_IT
 dataset_kwargs:
   token: True
 task: "seedbench-it"
