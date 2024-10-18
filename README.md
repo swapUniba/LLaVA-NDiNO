@@ -41,4 +41,11 @@ To evaluate a model, you should:
 
 ## Citation
 
-TBD
+```
+@inproceedings{musacchioLLaVANDiNO,
+  title={LLaVA-NDiNO: Empowering LLMs with Multimodality for the Italian Language},
+  author={Musacchio, Elio and Siciliani, Lucia and Basile, Pierpaolo and Semeraro, Giovanni},
+  booktitle={Proceedings of the Eighth Workshop on Natural Language for Artificial Intelligence (NL4AI 2024) co-located with 23th International Conference of the Italian Association for Artificial Intelligence (AI*IA 2024)},
+  year={2024}
+}
+```
