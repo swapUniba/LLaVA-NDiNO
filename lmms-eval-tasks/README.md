@@ -1,0 +1,2 @@
+In this folder you can find all additional files used for evaluation in the [lmms-eval](https://github.com/EvolvingLMMs-Lab/lmms-eval) library.
+Specifically, each fcustom task should be added to the [tasks](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/tasks) directory, while [mblip.py](mblip.py) should be added to the [models](https://github.com/EvolvingLMMs-Lab/lmms-eval/tree/main/lmms_eval/models) directory
